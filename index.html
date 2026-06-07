@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio – Nguyễn Vân Anh | Phương tiện số</title>
+  <meta name="description" content="Digital Portfolio của Nguyễn Vân Anh - Sinh viên chuyên ngành Phương tiện số tại Trường Quốc tế, ĐHQGHN. Nơi trưng bày các kết quả học tập và nghiên cứu công nghệ số." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,700;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- DECORATIVE BLOBS -->
+<div class="blob-bg">
+  <span class="b1"></span>
+  <span class="b2"></span>
+  <span class="b3"></span>
+  <span class="b4"></span>
+</div>
+
+<!-- FLOATING PETALS (LEAVES) -->
+<div class="petals" id="petalsContainer"></div>
+
+<!-- NAVIGATION -->
+<nav id="mainNav">
+  <a href="#hero" class="nav-logo">Vân Anh <span>✦</span></a>
+  <div class="nav-links">
+    <a href="#about" id="nav-about">Giới thiệu</a>
+    <a href="#weeks" id="nav-weeks">6 Tuần thực hành</a>
+    <a href="#summary" id="nav-summary">Tổng kết</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-badge">Digital Portfolio · 2026</div>
+  <div class="hero-avatar">
+    <img src="assets/avatar.png" alt="Avatar" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;" onerror="this.style.display='none'; this.parentElement.innerText='🍵';">
+  </div>
+  <h1 class="hero-name">Nguyễn Vân Anh</h1>
+  <p class="hero-sub">Sinh viên TRƯỜNG QUỐC TẾ – ĐHQGHN</p>
+  <p class="hero-school">
+    <strong>MSV: 25070604</strong> &nbsp;·&nbsp; Chuyên ngành Phương tiện số
+  </p>
+  
+  <div class="hero-tags">
+    <span class="hero-tag t-light">🗂️ Quản trị tệp</span>
+    <span class="hero-tag t-cool">🔍 Khai thác CSDL</span>
+    <span class="hero-tag t-olive">✍️ Prompt Engineering</span>
+    <span class="hero-tag t-warm">🤝 Cộng tác nhóm</span>
+    <span class="hero-tag t-light">🎨 Sáng tạo AI</span>
+    <span class="hero-tag t-cool">⚖️ Đạo đức AI</span>
+  </div>
+  
+  <div class="scroll-hint">
+    <span>Khám phá</span>
+    <div class="arrow">↓</div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-header reveal">
+    <span class="section-label">✦ Về Portfolio</span>
+    <h2 class="section-title">Hành trình <em>6 bài tập</em> rèn luyện</h2>
+    <p class="section-desc">
+      Chào mừng đến với không gian cá nhân trực quan của tôi. Đây là nơi ghi lại hành trình học tập, 
+      nghiên cứu và làm chủ các công cụ công nghệ số cùng trí tuệ nhân tạo.
+    </p>
+  </div>
+  
+  <div class="about-grid">
+    <div class="about-card reveal">
+      <h3>🎯 Mục tiêu học tập</h3>
+      <ul>
+        <li>Làm quen và vận dụng tối ưu hệ điều hành Windows</li>
+        <li>Đánh giá tài liệu học thuật & so sánh CSDL SQL vs NoSQL</li>
+        <li>Ứng dụng Prompt Engineering tối ưu hóa mô hình AI</li>
+        <li>Khai thác và vận dụng công cụ cộng tác trực tuyến nhóm</li>
+        <li>Sử dụng AI đa nền tảng sáng tạo nội dung truyền thông</li>
+        <li>Hiểu rõ giới hạn, đạo đức và liêm chính khi sử dụng AI</li>
+      </ul>
+    </div>
+    
+    <div class="about-card reveal">
+      <h3>📋 Thông tin Portfolio</h3>
+      <ul>
+        <li><strong>Họ tên:</strong> Nguyễn Vân Anh</li>
+        <li><strong>Mã SV:</strong> 25070604</li>
+        <li><strong>Trường:</strong> Trường Quốc tế - ĐHQGHN</li>
+        <li><strong>Chuyên ngành:</strong> Phương tiện số</li>
+        <li><strong>Số lượng:</strong> 6 chuyên đề thực hành</li>
+        <li><strong>Hình thức:</strong> Portfolio trực tuyến</li>
+      </ul>
+    </div>
+    
+    <div class="about-card reveal" style="grid-column: 1 / -1; overflow-x: auto;">
+      <h3>📊 Rubric đánh giá & Điểm nổi bật</h3>
+      <table class="rubric-table">
+        <thead>
+          <tr>
+            <th>STT</th>
+            <th>Chuyên đề</th>
+            <th>Mục tiêu & Kỹ năng cốt lõi</th>
+            <th>Điểm nổi bật</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Bài 1 – Quản trị Tệp tin</td><td>Quản lý tài nguyên hệ thống khoa học.</td><td>Xây dựng cây thư mục tối ưu.</td></tr>
+          <tr><td>2</td><td>Bài 2 – Đánh giá CSDL</td><td>Tra cứu tài liệu, phân tích MySQL vs MongoDB.</td><td>Bộ tiêu chí đánh giá chuẩn xác.</td></tr>
+          <tr><td>3</td><td>Bài 3 – Prompt Engineering</td><td>Giao tiếp AI (Role, Chain-of-Thought, Few-shot).</td><td>Cải thiện phản hồi lên mức 10/10.</td></tr>
+          <tr><td>4</td><td>Bài 4 – Cộng tác nhóm</td><td>Sử dụng Trello, Docs, Drive đồng bộ hóa.</td><td>Thiết lập hệ sinh thái làm việc mượt mà.</td></tr>
+          <tr><td>5</td><td>Bài 5 – Sáng tạo Infographic</td><td>Vận dụng Gemini, Nano Banana 2, Canva AI.</td><td>Sản phẩm đồ hoạ trẻ trung, sinh động.</td></tr>
+          <tr><td>6</td><td>Bài 6 – Trách nhiệm AI</td><td>Liêm chính học thuật, phòng tránh phụ thuộc.</td><td>Đề xuất "Bộ 7 nguyên tắc cá nhân".</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- WEEKS -->
+<section id="weeks">
+  <div class="section-header reveal">
+    <span class="section-label">✦ Nhật ký thực hành</span>
+    <h2 class="section-title">6 Bài tập <em>chuyên đề</em></h2>
+    <p class="section-desc">Nhấn vào từng chuyên đề để xem chi tiết nội dung và tải xuống tài liệu gốc.</p>
+  </div>
+  <div class="weeks-grid" id="weeksGrid">
+    <!-- Rendered by JS -->
+  </div>
+</section>
+
+<!-- SUMMARY -->
+<section id="summary">
+  <div class="section-header reveal">
+    <span class="section-label">✦ Tổng kết</span>
+    <h2 class="section-title">Nhìn lại <em>hành trình</em></h2>
+    <p class="section-desc">Giá trị cốt lõi đúc kết sau quá trình rèn luyện kỹ năng số.</p>
+  </div>
+  
+  <div class="summary-content reveal">
+    <div class="summary-item">
+      <h3>🌱 Những gì tôi đã đạt được</h3>
+      <ul>
+        <li>Nền tảng vững chắc về hệ điều hành & quản trị dữ liệu</li>
+        <li>Kỹ năng tra cứu, đánh giá nguồn tài liệu khoa học</li>
+        <li>Làm chủ nghệ thuật giao tiếp với AI (Prompt Engineering)</li>
+        <li>Cộng tác hiệu quả qua hệ sinh thái đám mây trực tuyến</li>
+        <li>Năng lực sản xuất nội dung truyền thông đa nền tảng AI</li>
+        <li>Nhận thức sâu sắc về đạo đức và liêm chính học thuật</li>
+      </ul>
+    </div>
+    
+    <div class="summary-item">
+      <h3>💡 Điểm tâm đắc nhất</h3>
+      <ul>
+        <li>AI không chỉ là cỗ máy trả lời tự động mà là một "trợ lý sáng tạo" đắc lực</li>
+        <li>Quản lý dữ liệu khoa học giúp tối ưu 50% thời gian thực thi</li>
+        <li>Định dạng Prompt cấu trúc rõ ràng mang lại kết quả khác biệt</li>
+        <li>Việc đóng vai trò "đạo diễn" điều phối các công cụ AI giúp đảm bảo giá trị nguyên bản</li>
+        <li>Xây dựng nguyên tắc 50% đóng góp cá nhân để không lệ thuộc AI</li>
+      </ul>
+    </div>
+    
+    <div class="skills-grid">
+      <div class="skill-pill"><span class="icon">🗂️</span> Quản trị dữ liệu</div>
+      <div class="skill-pill"><span class="icon">🔍</span> Đánh giá CSDL</div>
+      <div class="skill-pill"><span class="icon">✍️</span> Prompt Engineering</div>
+      <div class="skill-pill"><span class="icon">🤝</span> Hợp tác trực tuyến</div>
+      <div class="skill-pill"><span class="icon">🎨</span> Sáng tạo đa nền tảng</div>
+      <div class="skill-pill"><span class="icon">⚖️</span> Đạo đức AI</div>
+    </div>
+    
+    <div class="summary-item" style="grid-column: 1 / -1;">
+      <h3>🚀 Trải nghiệm & Định hướng</h3>
+      <p>
+        Xây dựng Portfolio này không chỉ là hoàn thành bài tập, mà là một hành trình nhìn lại sự tiến bộ. 
+        Với định hướng chuyên sâu về Phương tiện số, tôi nhận thấy công nghệ số và trí tuệ nhân tạo là "đòn bẩy" không thể thiếu. 
+        Trong tương lai, tôi sẽ tiếp tục tích hợp giữa tư duy phân tích khoa học và năng lực sáng tạo ứng dụng cao để thiết kế các giải pháp truyền thông số xuất sắc.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-name">Nguyễn Vân Anh</div>
+  <p>Portfolio Phương tiện số · TRƯỜNG QUỐC TẾ – ĐHQGHN · 2026</p>
+  <p style="margin-top:0.7rem;">Làm bằng <span class="heart">♥</span> và niềm đam mê công nghệ</p>
+</footer>
+
+<!-- LIGHTBOX -->
+<div id="lightbox">
+  <button class="lightbox-close" id="lbClose" title="Đóng (Esc)">✕</button>
+  <div class="lightbox-week-title" id="lbWeekTitle"></div>
+  <div class="lightbox-main">
+    <button class="lb-arrow" id="lbPrev" title="Ảnh trước">‹</button>
+    <img id="lightbox-img" src="" alt="Ảnh phóng to" />
+    <button class="lb-arrow" id="lbNext" title="Ảnh tiếp theo">›</button>
+  </div>
+  <div class="lightbox-thumbnails" id="lbThumbs"></div>
+  <div id="lightbox-counter"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

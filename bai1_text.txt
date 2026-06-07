@@ -1,0 +1,39 @@
+Mở File Explorer: Nhấn vào biểu tượng thư mục màu vàng.
+
+2. Truy cập ổ đĩa/thư mục: Nhấp vào This PC, sau đó nhấp đúp vào một ổ đĩa không phải ổ hệ thống(ở đây là ổ D:)
+
+ Nhấp chuột phải vào một khoảng trống tạo folder. Đặt tên thư mục là ThucHanh_NguyenVanAnh.
+
+	
+Trong thư mục ThucHanh_NguyenVanAnh tạo file Ghichu.txt
+
+Nháy chuột phải vào file Ghichu.txt, chọn rename, đổi tên file thanh GhiChuQuanTrong.txt
+
+Nháy chuột phải vào vùng trống trong thư mục ThucHanh_NguyenVanAnh, tạo thư mục con tên TaiLieu
+
+Sao chép tệp tin
+Nhấp chuột phải vào tệp GhiChuQuanTrong.txt -> chọn Copy 
+
+Nhấp đúp vào thư mục TaiLieu, nhấp chuột phải vào khoảng trống bên trong -> chọn Paste  
+
+Di chuyển tệp tin 
+Quay lại thư mục ThucHanh_NguyenVanAnh. Tạo một tệp mới tên là DiChuyen.txt
+
+
+
+Nhấp chuột phải vào tệp DiChuyen.txt -> chọn Cut
+
+
+8.3 . Nhấp đúp vào thư mục TaiLieu, nhấp chuột phải vào khoảng trống -> chọn Paste (hoặc nhấn Ctrl + V). Ta thấy file Dichuyen.txt trong thư mục ThucHanh_NguyenVanAnh đã biến mất và trong thư mục TaiLieu xuất hiện file Dichuyen.txt
+
+
+Trong thư mục TaiLieu, nhấp chuột phải vào tệp GhiChuQuanTrong.txt -> chọn Delete. Khi đó file sẽ bị xóa.
+
+
+Chọn tệp DiChuyen.txt, nhấn giữ phím Shift và nhấn phím Delete. Sau khi thực hiện xong, sẽ có ô cảnh báo hiện ra, chọn Yes thì file sẽ bị xóa vĩnh viễn.
+
+
+Nhấn đúp vào biểu tượng recyclebin, tìm tệp GhiChuQuanTrong.txt đã xóa, nhấp chuột phải vào nó và chọn Restore. Tệp sẽ quay trở lại vị trí ban đầu.
+
+
+
